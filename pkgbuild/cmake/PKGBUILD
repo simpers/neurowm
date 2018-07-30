@@ -5,8 +5,8 @@
 # tag in order to get better version tracking.
 #
 
-pkgname=neurowm-git
-pkgver=v0.35.r14.gbe569ba
+pkgname=neurowm
+pkgver=v0.35.r14.g44fd727
 pkgrel=1
 pkgdesc="neurowm is a tiling window manager written in C"
 arch=('i686' 'x86_64')
@@ -19,7 +19,7 @@ checkdepends=('bcunit')
 provides=('neurowm')
 conflicts=('neurowm')
 replaces=('neurowm')
-source=("neurowm::git+https://github.com/simpers/neurowm#branch=arch")
+source=("neurowm::git+https://github.com/simpers/neurowm#branch=working")
 md5sums=('SKIP')
 
 pkgver() {
